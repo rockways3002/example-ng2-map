@@ -14,6 +14,6 @@ import { NG2_MAP_DIRECTIVES, Ng2MapComponent } from "ng2-map";
 
 export class AppComponent {
 	constructor() {
-		Ng2MapComponent.apiUrl = "https://maps.google.com/maps/api/js?key=AIzaSyD2WDXhbeEApgUu1Poa3V6LR6Qx4u5RY8w";
+		Ng2MapComponent['apiUrl'] = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCDkhPCU3nX_JsXMvg2N5riJM0KF1XSgz4";
 	}
 }
